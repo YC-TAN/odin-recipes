@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: "Trebuchet MS", sans-serif;
+    color: #000000;
+    background-color: #f0ffff;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 36px;
+    font-weight: 700;    
+}
+
+.main-box,
+.main-title {
+    background-color: blue;
+    color: white;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.main-box,
+.content-box {
+    margin: 20px;
+}
+
+.main-box {
+    padding: 10px;
+}
+
+.content-box {
+    padding: 40px;
+    border: 2px solid black;
+    height: 500px;
+}
+
+.recipe-title {
+    background-color: gold;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+li {
+    padding: 1px;
+    margin: 2px;
+    border: 2px solid gray;
+}
+
+link {
+    color: #808080;
+    font-weight: bold;
+    font-size: medium;
+    font-family: "Papyrus", fantasy;
+}
