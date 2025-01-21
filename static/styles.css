@@ -42,7 +42,8 @@ h1 {
 .content-box {
     padding: 40px;
     border: 2px solid black;
-    height: 500px;
+    /* border-top: 5px dotted gray; */
+    height: auto;
 }
 
 .recipe-title {
@@ -50,8 +51,9 @@ h1 {
 }
 
 ul {
-    display: inline-flex;
+    /* display: inline; */
     list-style: none;
+    display: block;
 }
 
 li {
@@ -60,7 +62,7 @@ li {
     border: 2px solid gray;
 }
 
-link {
+.link {
     color: #808080;
     font-weight: bold;
     font-size: medium;
