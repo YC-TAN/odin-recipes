@@ -16,13 +16,18 @@ html {
     margin: 0;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-family: "Lucida Handwriting", cursive;
     font-size: 36px;
     font-weight: 700;    
 }
 
-.main-box,
+.title-box,
 .main-title {
     background-color: blue;
     color: white;
@@ -30,26 +35,20 @@ h1 {
     font-size: 50px;
 }
 
-.main-box,
-.content-box {
-    margin: 20px;
-}
-
-.main-box {
-    padding: 10px;
-}
 
 .content-box {
-    padding: 40px;
+    padding: 30px;
     border: 2px solid black;
     /* border-top: 5px dotted gray; */
-    height: auto;
+    height: 300px;
+    margin: 20px;
 }
 
 .recipe-title {
     background-color: gold;
 }
 
+/* Links */
 ul {
     /* display: inline; */
     list-style: none;
@@ -67,4 +66,17 @@ li {
     font-weight: bold;
     font-size: medium;
     font-family: "Papyrus", fantasy;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 20px;
 }
