@@ -11,9 +11,17 @@ html {
 * {
     font-family: "Trebuchet MS", sans-serif;
     color: #000000;
-    background-color: #f0ffff;
+    
     padding: 0;
     margin: 0;
+}
+
+.index {
+    background-color: #f0ffff;
+}
+
+.recipe {
+    background-color: lightgoldenrodyellow;
 }
 
 h1 {
