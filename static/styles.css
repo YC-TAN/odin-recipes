@@ -16,67 +16,79 @@ html {
     margin: 0;
 }
 
+h1 {
+    font-family: "Lucida Handwriting", cursive;
+}
+
+/* Homepage */
 .container {
     display: flex;
     flex-direction: column;
-}
-
-h1 {
-    font-family: "Lucida Handwriting", cursive;
-    font-size: 36px;
-    font-weight: 700;    
+    flex-wrap: nowrap;
+    /* gap: 20px; */
 }
 
 .title-box,
+.content-box {
+    margin: 0 50px;
+}
+
+.title-box {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* Homepage title */
 .main-title {
     background-color: blue;
     color: white;
-    margin: 20px;
     font-size: 50px;
+    font-weight: 700;
+    padding: 20px
 }
 
-
+/* Homepage Content */
 .content-box {
     padding: 30px;
     border: 2px solid black;
-    /* border-top: 5px dotted gray; */
-    height: 300px;
-    margin: 20px;
+    min-height: calc(100vh - 88px - 150px - 4px - 12px);
 }
 
-.recipe-title {
-    background-color: gold;
-}
-
-/* Links */
+/* Homepage Links */
 ul {
-    /* display: inline; */
     list-style: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
 }
 
 li {
-    padding: 1px;
+    padding: 5px;
     margin: 2px;
     border: 2px solid gray;
 }
 
-.link {
+/* Recipe page */
+.recipe-title {
+    background-color: gold;
+}
+
+.home-link {
     color: #808080;
     font-weight: bold;
     font-size: medium;
     font-family: "Papyrus", fantasy;
 }
 
+/* footer */
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: darkgray;
     color: black;
     text-align: center;
     padding: 8px;
     font-size: 12px;
-    margin-top: 20px;
 }
