@@ -30,6 +30,7 @@ h1 {
     text-align: center;
     padding: 8px;
     font-size: 12px;
+    flex-shrink: auto;
 }
 
 /* Homepage */
@@ -125,15 +126,12 @@ li {
     width: 100%;
 }
 
+/* Recipe text */
 .recipe-text {
     width: 70%;
 }
 
-.img-box {
-    width: 30%;
-    padding: 10px;
-}
-
+/* Section name */
 h5 {
     font-size: 26px;
     margin: 10px 0px;    
@@ -167,6 +165,11 @@ ol>li {
 }
 
 /* Recipe image */
+.img-box {
+    width: 30%;
+    padding: 10px;
+}
+
 img {
     width: 100%;
     height: auto;
