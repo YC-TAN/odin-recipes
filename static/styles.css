@@ -33,8 +33,7 @@ h1 {
     position: fixed;
 } */
 
-.footer,
-.footer-homepage {
+.footer{
     /* z-index: 9; */
     left: 0;
     bottom: 0;
