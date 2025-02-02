@@ -1,7 +1,7 @@
 # Odin-recipes
 
-This project focus on using HTML and CSS.
+This project focuses on using HTML and CSS.
 
-What I learnt from this project: 
-1. CSS: flex box
+What I learn from this project: 
+1. CSS: Flexbox
 2. CSS: box-sizing
